@@ -1,4 +1,4 @@
-package main
+package mergesort
 
 func sort(arr []int64, compare func(a int64, b int64) bool) []int64 {
 	if len(arr) <= 1 {
